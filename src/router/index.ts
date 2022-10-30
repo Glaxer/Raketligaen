@@ -12,48 +12,48 @@ import PlayersView from '@/views/PlayersView.vue';
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView,
   },
   {
-    path: '/matches',
-    name: 'matches',
-    component: MatchesView,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: AboutUsView,
-  },
-  {
     path: '/league-table',
-    name: 'leagueTable',
+    name: 'League Table',
     component: LeagueTableView,
   },
   {
-    path: '/rules',
-    name: 'rules',
-    component: RulesView,
-  },
-  {
-    path: '/signup',
-    name: 'signup',
-    component: SignUpView,
-  },
-  {
-    path: '/sponsors-and-prizes',
-    name: 'sponsors&prizes',
-    component: SponsorsAndPrizesView,
+    path: '/matches',
+    name: 'Matches',
+    component: MatchesView,
   },
   {
     path: '/teams',
-    name: 'teams',
+    name: 'Teams',
     component: TeamsView,
   },
   {
     path: '/players',
-    name: 'players',
+    name: 'Players',
     component: PlayersView,
+  },
+  {
+    path: '/signup',
+    name: 'Sign Up',
+    component: SignUpView,
+  },
+  {
+    path: '/rules',
+    name: 'Rules & Information',
+    component: RulesView,
+  },
+  {
+    path: '/about',
+    name: 'About Us',
+    component: AboutUsView,
+  },
+  {
+    path: '/sponsors-and-prizes',
+    name: 'Sponsors & Prizes',
+    component: SponsorsAndPrizesView,
   },
 ];
 
