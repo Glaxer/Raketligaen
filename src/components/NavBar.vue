@@ -3,7 +3,11 @@
 <template>
   <div class="h-screen sticky w-60 bg-primary text-lg">
     <div class="p-4 flex justify-center">
-      <a href="/"><img src="../assets/logo.png" width="100" /></a>
+      <router-link to="/" v-slot="{ href, navigate }" custom>
+        <a :href="href" @click="navigate">
+          <img src="../assets/logo.png" width="100" />
+        </a>
+      </router-link>
     </div>
     <nav>
       <ul>
