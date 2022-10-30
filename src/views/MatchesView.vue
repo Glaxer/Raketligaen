@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <p>Home</p>
+    <p>Matches Schedule</p>
   </main>
 </template>

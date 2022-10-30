@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <p>Home</p>
+    <p>Rules and Information</p>
   </main>
 </template>

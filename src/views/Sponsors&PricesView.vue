@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <p>Home</p>
+    <p>Sponsors and Prizes</p>
   </main>
 </template>
