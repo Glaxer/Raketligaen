@@ -2,7 +2,7 @@
 
 <template>
   <div class="h-60 grid grid-cols-footer">
-    <div class="p-4 bg-primary text-white">
+    <div class="p-8 bg-primary text-white">
       <p class="text-lg">RAKETLIGAEN</p>
       <p>
         RaketLigaen er den største danske Rocket League liga. I samarbejde med
@@ -13,7 +13,7 @@
       <p>CVR: 43587455</p>
     </div>
 
-    <div class="p-4 bg-white">
+    <div class="p-8 bg-gray">
       <p>FØLG OS HER</p>
       <p>IKON</p>
       <p>IKON</p>
