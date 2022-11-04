@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-white: rgb(246, 247, 235);
+    --color-dark: rgb(57, 62, 65);
+    --color-primary: rgb(0, 86, 63);
+    --color-secondary: rgb(156, 124, 56);
+    --color-tertiary: rgb(163, 0, 38);
+    --color-gray: rgb(238, 239, 239);
+  }
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
@@ -9,15 +20,15 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #1c4d73;
+  background: var(--color-primary);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #a30026;
+  background: var(--color-secondary);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #e94f37;
+  background: var(--color-tertiary);
 }

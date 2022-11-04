@@ -4,9 +4,10 @@ module.exports = {
     colors: {
       white: '#F6F7EB',
       dark: '#393E41',
-      primary: '#A30026',
-      secondary: '#1C4D73',
-      orange: '#E94F37',
+      primary: '#00563f',
+      secondary: '#9c7c38',
+      tertiary: '#A30026',
+      gray: '#eeefef',
     },
     fontFamily: {
       oswald: ['Oswald'],

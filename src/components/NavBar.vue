@@ -22,7 +22,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -39,7 +39,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -56,7 +56,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -73,7 +73,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -90,7 +90,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -107,7 +107,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -124,7 +124,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -141,7 +141,7 @@
                 isActive && 'router-link-active',
                 isExactActive && 'router-link-exact-active',
               ]"
-              class="text-white p-2 hover:bg-orange"
+              class="text-white p-2 hover:bg-tertiary"
             >
               {{ route.name }}
             </li>
@@ -154,6 +154,6 @@
 
 <style scoped>
 .router-link-exact-active {
-  background-color: #1c4d73;
+  background-color: var(--color-secondary);
 }
 </style>
