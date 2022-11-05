@@ -1,7 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Players from '@/components/Players.vue';
+</script>
 
 <template>
-  <main>
-    <p>Players</p>
+  <main class="p-2">
+    <p>Players Schedule</p>
+    <Players />
   </main>
 </template>

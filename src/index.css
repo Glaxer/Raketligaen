@@ -10,9 +10,14 @@
     --color-secondary: rgb(156, 124, 56);
     --color-tertiary: rgb(163, 0, 38);
     --color-gray: rgb(238, 239, 239);
+    --color-lgreen: rgb(159, 233, 159);
+    --color-lred: rgb(235, 115, 115);
+    --color-lorange: rgb(255, 174, 130);
+    --color-lyellow: rgb(242, 255, 169);
   }
 }
 
+/* SCROLLBAR */
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
@@ -31,4 +36,21 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-tertiary);
+}
+
+/* HIGHLIGHTING */
+::selection {
+  /* Change highlight background color to black */
+  background: var(--color-primary);
+  /* Change highlight text color to red */
+  color: var(--color-secondary);
+}
+
+/* LINKS */
+a {
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-tertiary);
 }
