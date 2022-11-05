@@ -149,6 +149,17 @@
         </router-link>
       </ul>
     </nav>
+    <div class="absolute bottom-10">
+      <a href="https://www.razer.com/eu-en" target="_blank">
+        <img src="../assets/Razer.png" width="232" class="mx-1 py-2" />
+      </a>
+      <a href="https://www.elgiganten.dk" target="_blank">
+        <img src="../assets/Elgiganten.png" width="232" class="mx-1 py-2" />
+      </a>
+      <a href="https://esportsadvokaten.dk" target="_blank">
+        <img src="../assets/Advokatgruppen.png" width="232" class="mx-1 py-2" />
+      </a>
+    </div>
   </div>
 </template>
 
