@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="h-screen sticky w-60 bg-primary text-lg">
+  <div class="h-full min-h-screen sticky w-60 bg-primary text-lg">
     <div class="p-4 flex justify-center">
       <router-link to="/" v-slot="{ href, navigate }" custom>
         <a :href="href" @click="navigate">
