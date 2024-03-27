@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="w-3/5">
+  <!-- <div class="w-3/5">
     <table
       class="w-full table border border-solid border-primary text-center border-collapse"
     >
@@ -98,7 +98,7 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </div> -->
 </template>
 
 <style scoped>

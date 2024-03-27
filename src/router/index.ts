@@ -8,6 +8,7 @@ import SignUpView from '@/views/SignUpView.vue';
 import SponsorsAndPrizesView from '@/views/Sponsors&PricesView.vue';
 import TeamsView from '@/views/TeamsView.vue';
 import PlayersView from '@/views/PlayersView.vue';
+import LoginView from '@/views/LoginView.vue';
 
 const routes = [
   {
@@ -54,6 +55,11 @@ const routes = [
     path: '/sponsors-and-prizes',
     name: 'Sponsors & Prizes',
     component: SponsorsAndPrizesView,
+  },
+  {
+    path: '/login',
+    name: 'Login & Register',
+    component: LoginView,
   },
 ];
 

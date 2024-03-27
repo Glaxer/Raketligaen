@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import Carousel from '@/components/Carousel.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
@@ -12,6 +10,5 @@ import Carousel from '@/components/Carousel.vue';
       danske spillere spille imod hinanden, kæmpe om 8.000 kr, samt få mulighed
       for at vise sig selv frem på den største danske Rocket League scene.
     </p>
-    <Carousel />
   </main>
 </template>
